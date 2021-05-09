@@ -1,11 +1,5 @@
 ### Actor Data  
-This structure holds the positional/transform data of Sam/Archer/Kestrel. It can be found at certain pointers:  
-```
-P1 Uplay: conviction_game.exe+FCC228  
-P2 Uplay: conviction_game.exe+FCC72C  
-P1 Steam: conviction_game.exe+10071E0  
-P2 Steam: conviction_game.exe+10076E4
-```
+This structure holds the positional/transform data of Sam/Archer/Kestrel.
 
 | Offset | Size | Type | ID |
 | --- | --- | --- | ------------|
