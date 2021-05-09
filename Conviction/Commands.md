@@ -31,7 +31,7 @@ Toggles freecam. Dpad up/down will change the height, while the triggers modify 
 Toggles the camera between where you left it and on the player. Should be set with freecam first.
 
 ### open
-Opens a map with optional parameters
+Opens a map with optional parameters. Deniable Ops maps will launch in Hunter mode unless otherwise specified.
 
 **Syntax:** *open %s*  
 **Syntax:** *open %s?params*
