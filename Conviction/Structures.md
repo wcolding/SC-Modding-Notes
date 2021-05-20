@@ -1,4 +1,4 @@
-### Actor Data  
+### Actor Data  = ESam ?
 This structure holds the positional/transform data of Sam/Archer/Kestrel.
 
 | Offset | Size | Type | ID |
