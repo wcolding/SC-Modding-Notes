@@ -8,3 +8,4 @@ This structure holds the positional/transform data of Sam
 | 0xDC | 4 | float | Z Position (Height) |
 | 0xE4 | 2 | ushort | Y Rotation |
 | 0x2E4 | 4 | float | JumpZ (Jump force) |
+| 0x330 | 4 | int | Current Health (max 200) |
