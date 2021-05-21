@@ -17,3 +17,14 @@ This structure holds the positional/transform data of Sam/Archer/Kestrel.
 | 0x1C0 | 4 | float | X Velocity |
 | 0x1C4 | 4 | float | Z Velocity |
 | 0x1C8 | 4 | float | Y Velocity |
+
+
+
+
+### L3D Data
+This structure stores applied L3D effects
+| Offset | Size | Type | ID |
+| --- | --- | --- | ------------|
+| 0x44 | 1 | bool | Character Lighting |
+| 0xD5 | 1 | bool | Shadows |
+| 0xD8 | 1 | bool | Post Effects |
