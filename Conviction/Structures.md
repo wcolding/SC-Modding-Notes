@@ -14,6 +14,13 @@ This structure holds the positional/transform data of Sam/Archer/Kestrel.
 | 0x1C4 | 4 | float | Z Velocity |
 | 0x1C8 | 4 | float | Y Velocity |
 | 0x450 | 4 | float | Unknown float | 1.00 normally, 0 when in GhostState |
+| 0x664 | 4 | ptr | Pointer to Current Weapon |
+
+### Current Weapon
+| Offset | Size | Type | ID | Note |
+| --- | --- | --- | ------------| --- |
+| 0x828 | 4 | int | m_CartridgeCapacity |
+| 0x82C | 4 | int | m_CurrentCartridgeAmmo |
 
 ### Engine.PlayerInput
 
