@@ -7,12 +7,12 @@ This structure holds the positional/transform data of Sam/Archer/Kestrel.
 | 0x40 | 4 | int | BlackBox id? |
 | 0x53 | 1 | byte | Flags | 0x02 = Gravity Disabled, 0x04 = Noclip |
 | 0x94 | 4 | float | X Position |
-| 0x98 | 4 | float | Z Position |
-| 0x9C | 4 | float | Y Position | Height |
-| 0xA4 | 2 | ushort | Y Rotation |
+| 0x98 | 4 | float | Y Position |
+| 0x9C | 4 | float | Z Position | Height |
+| 0xA4 | 2 | ushort | Z Rotation |
 | 0x1C0 | 4 | float | X Velocity |
-| 0x1C4 | 4 | float | Z Velocity |
-| 0x1C8 | 4 | float | Y Velocity |
+| 0x1C4 | 4 | float | Y Velocity |
+| 0x1C8 | 4 | float | Z Velocity |
 | 0x450 | 4 | float | Unknown float | 1.00 normally, 0 when in GhostState |
 | 0x664 | 4 | ptr | Pointer to Current Weapon |
 
