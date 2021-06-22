@@ -7,4 +7,4 @@ This structure is the main class for Sam, holding some stats and pointers to oth
 | 0xEC | 4 | float | Y Position |
 | 0xF0 | 4 | float | Z Position | Height |
 | 0xF8 | 2 | ushort | Z Rotation |
-| 0x420 | 4 | int | Health (max 450) |
+| 0x420 | 4 | int | Health | Max 450 |
