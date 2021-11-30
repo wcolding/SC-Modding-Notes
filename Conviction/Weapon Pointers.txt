@@ -1,0 +1,16 @@
+The game seemingly caches pointers to weapons at static addresses
+If an AI unit on a map is using that weapon and the player does not have it in their loadout, these will point to the enemy's weapon
+If the weapon is not loaded these will be NULL
+Acquiring a weapon from a box will allocate a new weapon for the player and update the appropriate pointer
+
+All addresses are offsets from the base address of the game ("conviction_game.exe")
+
+UPlay version:
+
+MK.23         0xFD1160
+MP-446        0xFD1164
+Desert Eagle  0xFD2064
+P-228         0xFE0C30
+SC-3000       0xFD3964
+M-500         0xFD9910
+SCAR          0xFD1148
