@@ -1,5 +1,6 @@
 The game seemingly caches pointers to weapons at static addresses
 If an AI unit on a map is using that weapon and the player does not have it in their loadout, these will point to the enemy's weapon
+If you kill the AI unit you steal the weapon from (at least with the weapon) the game seems to deallocate the weapon and crash
 If the weapon is not loaded these will be NULL
 Acquiring a weapon from a box will allocate a new weapon for the player and update the appropriate pointer
 
