@@ -38,6 +38,11 @@ This structure holds the positional/transform data of Sam/Archer/Kestrel.
 | 0x830 | 4 | int | m_CurrentSpareAmmo |
 | 0x83C | 4 | int | Animation set to use? | 0 = Hand-to-Hand, 1 = Pistol, 2 = Two-handed |
 | 0x840 | 4 | float | m_RateOfFire |
+| 0xD18 | 4 | int | m_iMarkAndExecCapacity |
+| 0xD1C | 4 | int | m_iMaxShotPerExecution |
+| 0xD20 | 4 | int | m_iRetributionMarkAndExecCapacity |
+| 0xDC0 | 4 | float | m_fWallHitInitSizeMultMin |
+| 0xDC4 | 4 | float | m_fWallHitInitSizeMultMax |
 
 ### Engine.PlayerInput
 
